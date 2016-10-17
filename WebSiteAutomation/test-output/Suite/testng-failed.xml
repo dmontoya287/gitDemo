@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Safari"/>
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="webSite1.WebSite1Auto">
+        <methods>
+          <include name="clickPages"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="clickPages2"/>
+          <include name="driverQuite"/>
+          <include name="driverQuite"/>
+          <include name="returnPage"/>
+          <include name="returnPage"/>
+          <include name="clickPages3"/>
+          <include name="verifyTitle"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- webSite1.WebSite1Auto -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="SafariTest(failed)">
+    <parameter name="browser" value="Safari"/>
+    <classes>
+      <class name="webSite1.WebSite1Auto">
+        <methods>
+          <include name="clickPages"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="clickPages2"/>
+          <include name="driverQuite"/>
+          <include name="driverQuite"/>
+          <include name="returnPage"/>
+          <include name="returnPage"/>
+          <include name="clickPages3"/>
+          <include name="verifyTitle"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- webSite1.WebSite1Auto -->
+    </classes>
+  </test> <!-- SafariTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
